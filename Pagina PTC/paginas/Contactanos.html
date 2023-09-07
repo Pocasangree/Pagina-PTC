@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://kit.fontawesome.com/eb496ab1a0.js">
+  <link rel="stylesheet" href="htps://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/contactanos.css">
+  <script src="../js/MenuPages.js" defer></script>
+  <script src="../js/contactanos.js"></script>
+</head>
+
+<body>
+  <div id="menuContenedor"></div>
+
+  <div class="formulario container">
+    <h2>Formulario de Contacto</h2>
+    <form id="formularioContacto">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje de Retroalimentación</label>
+        <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" id="enviarBtn">Enviar</button>
+    </form>
+  </div>
+  <br><br><br><br><br><br><br>
+
+
+  <!-- Agregar el enlace al archivo JavaScript de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Agregar el enlace al archivo JavaScript de SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+  <script src="../js/contactanos.js"></script>
+
+  <footer class=" text-light pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contactos</h5>
+          <hr class="mb-4">
+          <li class="fas fa-home me-3"></li>Autopista Sur y, Av. Las Amapolas, San Salvador
+          <li class="fas fa-envelope me-3"></li>stellarswheels@gmail.com
+          <li class="fas fa-phone me-3"></li>+503 7989-0503
+          <li class="fa-brands fa-instagram"></li> stellarswheels
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/cargarMenuPages.js"></script>
+</body>
+
+</html>
