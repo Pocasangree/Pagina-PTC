@@ -1,2 +1,0 @@
-# Pagina-PTC
-StellarsWheels
